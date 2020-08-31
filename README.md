@@ -16,5 +16,6 @@
 
 ## 2.資料清洗
 刪除與本文無關的內容 (如作者資訊、延伸閱讀、廣告等等)。\
-利用正規表達式(re)刪除特殊符號(※ \\n ...) 只保留中文、英文和數字。
-* [資料清洗](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/JobBank.ipynb)
+利用正規表達式(re)刪除特殊符號(※ \\n ...) 只保留中文、英文和數字。\
+資料清洗完畢，將資料合併。
+* [資料清洗](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/clean%26combine.ipynb)
