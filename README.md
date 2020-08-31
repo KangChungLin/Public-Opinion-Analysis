@@ -10,7 +10,7 @@
 * [商周財富網](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/businessweekly.ipynb)
 
 利用pandas下載HTML的表格
-* [Yahoo Finance](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/businessweekly.ipynb)
+* [Yahoo Finance](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_price.ipynb)
 
 利用Selenium控制chrome來爬取網頁
-* [商周財富網](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/businessweekly.ipynb)
+* [104人力銀行](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/JobBank.ipynb)
