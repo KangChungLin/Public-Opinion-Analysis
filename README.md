@@ -1,4 +1,3 @@
-# Public-Opinion-Analysis
 # 台灣股票網站輿情分析
 
 ## 1.資料收集
@@ -14,3 +13,8 @@
 
 利用Selenium控制chrome來爬取網頁
 * [104人力銀行](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/JobBank.ipynb)
+
+## 2.資料清洗
+刪除與本文無關的內容 (如作者資訊、延伸閱讀、廣告等等)。\
+利用正規表達式(re)刪除特殊符號(※ \\n ...) 只保留中文、英文和數字。
+* [資料清洗](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/JobBank.ipynb)
