@@ -8,3 +8,9 @@
 * [鉅亨網台股部落格](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/gihun_blog.ipynb)
 * [mobile01 投資與理財](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/gihun_blog.ipynb)
 * [商周財富網](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/businessweekly.ipynb)
+
+利用pandas下載HTML的表格
+* [Yahoo Finance](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/businessweekly.ipynb)
+
+利用Selenium控制chrome來爬取網頁
+* [商周財富網](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/businessweekly.ipynb)
