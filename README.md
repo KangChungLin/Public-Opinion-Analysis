@@ -54,3 +54,6 @@
 
 ### 前十大熱門股票排行榜
 ![image](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/hot_stock.png)
+### 2020年7月台積電聲量與股價對照圖
+![image](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/TWstock_2330_202007.png)
+
