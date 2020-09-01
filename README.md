@@ -47,4 +47,7 @@
 * [各文章股票出現紀錄](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_trend.ipynb)
 
 利用R的dplyr套件將資料整理成以不同形式的資料(各股票每日出現的次數、每月出現次數、不同的網站)。
-* [每日股票出現次數](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/sortbyDate.R)
+* [資料整理](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/sortbyDate.R)
+
+將上述的資料用wordcloud2畫出各時期熱詞和股票的文字雲，用ggplot2畫出各時期熱門股票排行榜和股票聲量與股價的對照圖。
+* [股票聲量分析作圖](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/sortbyDate.R)
