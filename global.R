@@ -1,0 +1,10 @@
+library(readr)
+library(shiny)
+library(shinydashboard)
+library(wordcloud2)
+library(plotly)
+#setwd('stock_shiny/')
+
+df <- read_csv("websiteByMonth.csv")
+words <- read_csv('words_alltimes.csv')
+stock <- read_csv('stock_alltimes.csv')
