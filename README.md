@@ -72,7 +72,7 @@ Shiny app由下列3個檔案組成:
 * [server.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/server.R)
 
 Shiny app可以在shinyapps.io上發布。
-* [網頁](https://kangchunglin.shinyapps.io/stock_shiny/)
+* [網頁請點此](https://kangchunglin.shinyapps.io/stock_shiny/)
 ![image](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_web.jpg)
 
 Shiny可以連接資料庫製作互動式介面，以下是連接MariaDB:
