@@ -40,3 +40,5 @@
 * [TF & TF-IDF](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
 
 ## 4.文字挖掘 (Text mining)
+將股票文章對照台股名稱列表，找到每篇文章出現的股票，並利用R的dplyr整理成每日股票聲量。
+* [股票聲量](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
