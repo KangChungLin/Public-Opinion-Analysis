@@ -50,4 +50,7 @@
 * [資料整理](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/sortbyDate.R)
 
 將上述的資料用wordcloud2畫出各時期熱詞和股票的文字雲，用ggplot2畫出各時期熱門股票排行榜和股票聲量與股價的對照圖。
-* [股票聲量分析作圖](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/sortbyDate.R)
+* [股票聲量分析作圖](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_plot.R)
+
+### 前十大熱門股票排行榜
+![image](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/hot_stock.png)
