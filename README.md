@@ -57,3 +57,9 @@
 ### 2020年7月台積電聲量與股價對照圖
 ![image](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/TWstock_2330_202007.png)
 
+## 5.資料視覺化
+利用R Shiny建立互動式介面，顯示每個月文章數、股票文字雲、熱詞文字雲和股票十大排行榜。\
+Shiny app由下列3個檔案組成:
+* [global.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_plot.R)
+* [ui.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_plot.R)
+* [server.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_plot.R)
