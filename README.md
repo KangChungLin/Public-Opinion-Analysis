@@ -57,6 +57,12 @@
 ### 2020年7月台積電聲量與股價對照圖
 ![image](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/TWstock_2330_202007.png)
 
+利用python的Scikit-Learn套件中的隱含狄利克雷分布 (Latent Dirichlet allocation, LDA)來進行文章主題分類。
+* [LDA主題分類](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/document_classify.ipynb)
+
+使用pyspark進行分散式運算，能大幅加速詞頻計算和LDA模型的運算速度。
+* [pyspark進行機器學習](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/pyspark_LDA.ipynb)
+
 ## 5.資料視覺化
 利用R Shiny建立互動式介面，顯示每個月文章數、股票文字雲、熱詞文字雲和股票十大排行榜。\
 Shiny app由下列3個檔案組成:
