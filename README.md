@@ -25,4 +25,6 @@
 
 ## 3.自然語言處理
 中文必須先將句子中每個字詞分割出來 (ex.今天天氣很好 => 今天 天氣 很好)。\
-使用中研院開發的[ckiptagger](https://github.com/ckiplab/ckiptagger)來進行斷詞。
+使用中研院開發的[ckiptagger](https://github.com/ckiplab/ckiptagger)來進行斷詞。\
+先安裝ckiptagger，下載提供的語料庫，並進行測試。
+* [ckiptagger測試](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/ckiptagger_demo.ipynb)
