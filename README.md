@@ -41,10 +41,10 @@
 
 ## 4.文字挖掘 (Text mining)
 將股票文章對照台股名稱列表，找到每篇文章出現的股票。
-* [尋找文章中的股票名](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
+* [尋找文章中的股票名](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/find_stock.ipynb)
 
 上述資料利用Scikit-Learn轉成數值矩陣，使用pandas變成DataFrame的形式，以股票名為欄位名稱。
-* [各文章股票出現紀錄](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
+* [各文章股票出現紀錄](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_trend.ipynb)
 
-利用R的dplyr套件將資料整理成各股票每日出現的次數。
-* [每日股票出現次數](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
+利用R的dplyr套件將資料整理成以不同形式的資料(各股票每日出現的次數、每月出現次數、不同的網站)。
+* [每日股票出現次數](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/sortbyDate.R)
