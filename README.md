@@ -23,14 +23,28 @@
 利用pandas將時間字串轉換成日期格式
 * [日期資料型態](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/convert_to_datetime.ipynb)
 
-## 3.自然語言處理
+## 3.自然語言處理 (Natural Language Processing)
 中文必須先將句子中每個字詞分割出來 (ex.今天天氣很好 => 今天 天氣 很好)。\
 使用中研院開發的[ckiptagger](https://github.com/ckiplab/ckiptagger)來進行斷詞。\
 先安裝ckiptagger，下載提供的語料庫，並進行測試。
 * [ckiptagger測試](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/ckiptagger_demo.ipynb)
 
-可以加入自定義字典協助斷詞。
+加入自定義字典協助斷詞。
 * [建立股票用語及名目字典](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/build_dict.ipynb)
 
-將網路爬蟲所得的文章進行斷詞。
-* [股票文章斷詞](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/build_dict.ipynb)
+將網路爬蟲所得的股票文章進行斷詞。
+* [股票文章斷詞](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
+
+將斷詞後的資料轉換成詞袋模型 (Bag of Words Model)，轉換成數值型態。\
+利用Scikit-Learn建立詞頻(Term Frequency, TF)和詞頻-逆向文件頻率(Term Frequency-Inverse Document Frequency, TF-IDF)矩陣，再利用pandas轉成DataFrame，以csv檔儲存。
+* [TF & TF-IDF](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
+
+## 4.文字挖掘 (Text mining)
+將股票文章對照台股名稱列表，找到每篇文章出現的股票。
+* [尋找文章中的股票名](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
+
+上述資料利用Scikit-Learn轉成數值矩陣，使用pandas變成DataFrame的形式，以股票名為欄位名稱。
+* [各文章股票出現紀錄](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
+
+利用R的dplyr套件將資料整理成各股票每日出現的次數。
+* [每日股票出現次數](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
