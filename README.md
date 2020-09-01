@@ -28,3 +28,9 @@
 使用中研院開發的[ckiptagger](https://github.com/ckiplab/ckiptagger)來進行斷詞。\
 先安裝ckiptagger，下載提供的語料庫，並進行測試。
 * [ckiptagger測試](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/ckiptagger_demo.ipynb)
+
+可以加入自定義字典協助斷詞。
+* [建立股票用語及名目字典](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/build_dict.ipynb)
+
+將網路爬蟲所得的文章進行斷詞。
+* [股票文章斷詞](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/build_dict.ipynb)
