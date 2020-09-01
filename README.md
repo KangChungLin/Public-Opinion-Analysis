@@ -36,7 +36,8 @@
 * [股票文章斷詞](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
 
 將斷詞後的資料轉換成詞袋模型 (Bag of Words Model)，轉換成數值型態。\
-利用Scikit-Learn建立詞頻(Term Frequency, TF)和詞頻-逆向文件頻率(Term Frequency-Inverse Document Frequency, TF-IDF)矩陣，再利用pandas轉成DataFrame，以csv檔儲存。
+利用Scikit-Learn建立詞頻(Term Frequency, TF)和詞頻-逆向文件頻率(Term Frequency-Inverse Document Frequency, TF-IDF)矩陣，再利用pandas轉成DataFrame，以csv檔儲存。\
+TF-IDF會降低常見字的權重，因常見字對於每篇文章的意義通常不大(ex.今天、和、的)。
 * [TF & TF-IDF](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
 
 ## 4.文字挖掘 (Text mining)
@@ -58,7 +59,7 @@
 ![image](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/TWstock_2330_202007.png)
 
 ## 5.機器學習
-利用python的Scikit-Learn套件中的隱含狄利克雷分布 (Latent Dirichlet allocation, LDA)來進行文章主題分類。
+利用python的Scikit-Learn套件中的隱含狄利克雷分布 (Latent Dirichlet allocation, LDA)來進行文章主題分類，可以使用TF或TF-IDF進行分類。
 * [LDA主題分類](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/document_classify.ipynb)
 
 使用pyspark進行分散式運算，能大幅加速詞頻計算和LDA模型的運算速度。
