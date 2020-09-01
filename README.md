@@ -60,6 +60,10 @@
 ## 5.資料視覺化
 利用R Shiny建立互動式介面，顯示每個月文章數、股票文字雲、熱詞文字雲和股票十大排行榜。\
 Shiny app由下列3個檔案組成:
-* [global.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_plot.R)
-* [ui.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_plot.R)
-* [server.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_plot.R)
+* [global.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/global.R)
+* [ui.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/ui.R)
+* [server.R](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/server.R)
+
+Shiny app可以在shinyapps.io上發布。
+* [網頁]( https://kangchunglin.shinyapps.io/stock_shiny/)
+![image](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/stock_web.jpg)
