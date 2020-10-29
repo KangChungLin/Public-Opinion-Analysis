@@ -38,7 +38,7 @@
 將斷詞後的資料轉換成詞袋模型 (Bag of Words Model)，轉換成數值型態。\
 利用Scikit-Learn建立詞頻(Term Frequency, TF)和詞頻-逆向文件頻率(Term Frequency-Inverse Document Frequency, TF-IDF)矩陣，並可利用pandas轉成DataFrame，以csv檔儲存。\
 TF-IDF會降低常見字的權重，因常見字對於每篇文章的意義通常不大(ex.今天、和、的)。
-* [TF & TF-IDF](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)
+* [TF & TF-IDF](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/word_segment.ipynb)\
 如果文章有貼好標籤(ex.真或假新聞)，即可將TF或TF-IDF以機器學習的分類方法來訓練模型，藉此預測新的文章的類別。
 
 ## 4.文字挖掘 (Text mining)
