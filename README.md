@@ -20,6 +20,9 @@
 資料清洗完畢，將資料合併。
 * [資料清洗](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/clean%26combine.ipynb)
 
+使用pandas進行向量化字串操作
+* [向量化字串操作](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/clean_data.ipynb)
+
 利用pandas將時間字串轉換成日期格式
 * [日期資料型態](https://github.com/KangChungLin/Public-Opinion-Analysis/blob/master/convert_to_datetime.ipynb)
 
